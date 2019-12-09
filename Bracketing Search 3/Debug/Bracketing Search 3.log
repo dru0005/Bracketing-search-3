@@ -1,0 +1,3 @@
+﻿  Bracketing Search 3.cpp
+C:\Users\User\Documents\GitHub\Bracketing-search-3\Bracketing Search 3\Bracketing Search 3.cpp(21,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Bracketing Search 3.vcxproj -> C:\Users\User\Documents\GitHub\Bracketing-search-3\Bracketing Search 3\Debug\Bracketing Search 3.exe

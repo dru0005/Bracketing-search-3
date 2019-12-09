@@ -32,38 +32,30 @@ int main() {
 		cout << cGuess << "\n" << "If higher press 1 \n" << "If lower press 0 \n" << "If correct press 3 \n";
 		cin >> hL;
 
-	
+		int first = 0;
+		int last = 100;
+		int middle = 0;
 
-		switch (hL) {
-		case 0:
-			l = cGuess / 2;
-			topNum = cGuess;
+		while (first <= last && choice == 'n')
+		{
+			middle = (first + last) / 2;
 
-			for (int i = 0; i < cGuess, i > lowNum; i++)
-				numbers[i] = i;
-
-			cGuess = numbers[l];
-
-
-			break;
-
-		case 1:
-			h = cGuess / 2;
-			lowNum = cGuess;
-
-			h = h + cGuess;
-			
-			for (int i = cGuess; i < topNum; i++)
-				numbers[i] = i;
-
-			
-
-			cGuess = numbers[h];
-
-			
-			break;
-
+			if (set[middle] < search)
+			{
+				first = middle + 1;
+			}
+			else if (set[middle] > search)
+			{
+				last = middle - 1;
+			}
+			else
+			{
+				`
+					break; //found
+			}
 		}
+		search = set[middle];
+	}
 		
 
 
